@@ -1,0 +1,11 @@
+# This contains configuration for any modules that work with an extant database (the "crunch" package)
+# config_template.toml is source code controlled, so you shouldn't change it. If/when you need
+# to override values in this file, copy it to the mmoldb-access folder and change any values you need.
+# Any values not in config.toml (or if config.toml doesn't exist) the defaults in config_template.toml
+# will be used.
+
+[connection]
+host = "https://mmoldb.beiju.me/"
+port = 42416
+username = "guest"
+password = "moldybees"
