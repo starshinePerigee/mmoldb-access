@@ -1,0 +1,7 @@
+These tests expect a live MMOLDB database and a valid configuration!
+That's not the best practice (ideally you'd instantiate one as a fixture, or use mocks)
+but be glad you're getting tests at all!
+
+btw tdd is awesome and you should do it
+
+but I bet half of you fucks don't even use a real debugger so ¯\_(ツ)_/¯
