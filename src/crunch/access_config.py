@@ -1,6 +1,7 @@
 """
 This module handles all config used by the crunch package, as well as most tests.
 """
+
 import tomllib
 from pathlib import Path
 
@@ -14,12 +15,13 @@ class GlobalConfig:
 
     File read is performed on object init.
     """
+
     _singleton = None
 
     def __init__(self):
         with open(ROOT_PATH / "config_template.toml", "rb") as f:
             self._d = tomllib.load(f)
-        
+
         if (config_path := ROOT_PATH / "config.toml").exists():
             with open(config_path, "rb") as f:
                 new_d = tomllib.load(f)

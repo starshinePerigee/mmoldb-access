@@ -9,3 +9,4 @@ host = "https://mmoldb.beiju.me/"
 port = 42416
 username = "guest"
 password = "moldybees"
+echo = false

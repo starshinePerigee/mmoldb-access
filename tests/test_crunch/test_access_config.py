@@ -1,6 +1,5 @@
-import pytest
-
 from crunch.access_config import GlobalConfig
+
 
 def test_globalconfig_init():
     cfg = GlobalConfig()
